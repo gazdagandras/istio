@@ -10,7 +10,7 @@ entries:
     - istio
     name: base
     urls:
-    - https://gazdagandras.github.io/istio/charts/base-1.19.1.tgz
+    - https://gazdagandras.github.io/istio/base-1.19.1.tgz
     version: 1.19.1
   cni:
   - apiVersion: v1
@@ -23,7 +23,7 @@ entries:
     - istio
     name: cni
     urls:
-    - https://gazdagandras.github.io/istio/charts/cni-1.19.1.tgz
+    - https://gazdagandras.github.io/istio/cni-1.19.1.tgz
     version: 1.19.1
   gateway:
   - apiVersion: v2
@@ -37,7 +37,7 @@ entries:
     name: gateway
     type: application
     urls:
-    - https://gazdagandras.github.io/istio/charts/gateway-1.19.1.tgz
+    - https://gazdagandras.github.io/istio/gateway-1.19.1.tgz
     version: 1.19.1
   istiod:
   - apiVersion: v1
@@ -51,7 +51,7 @@ entries:
     - istio-discovery
     name: istiod
     urls:
-    - https://gazdagandras.github.io/istio/charts/istiod-1.19.1.tgz
+    - https://gazdagandras.github.io/istio/istiod-1.19.1.tgz
     version: 1.19.1
   ztunnel:
   - apiVersion: v1
@@ -64,6 +64,6 @@ entries:
     - istio
     name: ztunnel
     urls:
-    - https://gazdagandras.github.io/istio/charts/ztunnel-1.19.1.tgz
+    - https://gazdagandras.github.io/istio/ztunnel-1.19.1.tgz
     version: 1.19.1
 generated: "2023-10-02T19:29:24.402395628Z"
