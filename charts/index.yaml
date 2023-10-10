@@ -9,8 +9,6 @@ entries:
     keywords:
     - istio
     name: base
-    sources:
-    - https://github.com/istio/istio
     urls:
     - https://gazdagandras.github.io/istio/charts/base-1.19.1.tgz
     version: 1.19.1
@@ -24,8 +22,6 @@ entries:
     - istio-cni
     - istio
     name: cni
-    sources:
-    - https://github.com/istio/istio/tree/master/cni
     urls:
     - https://gazdagandras.github.io/istio/charts/cni-1.19.1.tgz
     version: 1.19.1
@@ -39,8 +35,6 @@ entries:
     - istio
     - gateways
     name: gateway
-    sources:
-    - https://github.com/istio/istio
     type: application
     urls:
     - https://gazdagandras.github.io/istio/charts/gateway-1.19.1.tgz
@@ -56,8 +50,6 @@ entries:
     - istiod
     - istio-discovery
     name: istiod
-    sources:
-    - https://github.com/istio/istio
     urls:
     - https://gazdagandras.github.io/istio/charts/istiod-1.19.1.tgz
     version: 1.19.1
@@ -71,8 +63,6 @@ entries:
     - istio-ztunnel
     - istio
     name: ztunnel
-    sources:
-    - https://github.com/istio/istio
     urls:
     - https://gazdagandras.github.io/istio/charts/ztunnel-1.19.1.tgz
     version: 1.19.1
